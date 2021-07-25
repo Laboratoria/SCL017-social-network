@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <script type="module" src="main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Social-Network</title>
+  </head>
+  <body>
+    <div id="root">
+    </div>
+    
+    
+    
+    <!-- -----------   CONFIGURACIÓN DE FIREBASE ------------- -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>  <!-- SCRIPT DE AUTENTICACION -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script> <!-- SCRIPT PARA FIRESTORE -->
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBHTyqk4ajz0njIfMyDR9SZNLeLe_FYM4c",
+        authDomain: "mira-4b75e.firebaseapp.com",
+        databaseURL: "https://mira-4b75e-default-rtdb.firebaseio.com",
+        projectId: "mira-4b75e",
+        storageBucket: "mira-4b75e.appspot.com",
+        messagingSenderId: "92599889665",
+        appId: "1:92599889665:web:a248d5b78ad8f66303f500",
+        measurementId: "G-LQKNJXGMZS",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="fireBase/post.js"></script> 
+    <script type="module" src="fireBase/postController.js"></script>
+
+  </body>
 </html>
+ 
