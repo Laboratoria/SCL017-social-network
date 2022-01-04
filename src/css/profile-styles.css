@@ -1,0 +1,28 @@
+.profile-post {
+  background-color: var(--yellow);
+  position: relative;
+  padding: 10px;
+}
+#user-info{
+  padding: 10px;
+}
+
+.perfil {
+  border-radius: 100%;
+  max-width: 150px;
+  margin-left: 28%;
+}
+
+.name {
+  margin-left: 30%;
+}
+
+.ubicacion {
+  margin-left: 28%;
+}
+
+.post {
+  background-color: var(--yellow);
+  position: relative;
+  margin-top: 30%;
+}

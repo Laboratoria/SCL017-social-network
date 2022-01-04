@@ -1,0 +1,104 @@
+.container {
+  width: 100%;
+}
+
+#login-form,
+#register-form {
+  padding: 5%;
+  width: 80%;
+}
+
+.input-data {
+  border-radius: 10px;
+  color: dimgray;
+  font-size: 100%;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1em;
+  border-color: var(--black);
+}
+
+.action-btn {
+  border-radius: 10px;
+  color: var(--pink);
+  background-color: var(--white);
+  padding: 12px;
+  width: 102%;
+  border-color: var(--pink);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
+.action-google {
+  background-color: var(--white);
+  width: 80%;
+  border-radius: 10px;
+  border-color: var(--green);
+  font-family: 'Open sans', sans-serif;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  padding: 9px 15px 9px 15px;
+}
+
+.img-google {
+  width: 10%;
+  vertical-align: middle;
+}
+
+.line {
+  width: 40%;
+  border-bottom: 4px solid var(--pink);
+  margin: 0% 0 10% 0;
+}
+
+.or {
+  font-weight: bold;
+  padding: 10px 5px 0 5px;
+}
+
+.title-form {
+  font-family: 'Bitter', sans-serif;
+  font-size: 20px;
+  margin-left: 9%;
+  margin-bottom: 5%;
+}
+
+.login-password {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.new-colors {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  height: 130%;
+}
+
+.enter {
+  text-align: center;
+  font-family: 'Bitter', sans-serif;
+}
+
+/* Get the link to go to either the register o login pages */
+
+#link-redirect {
+  color: var(--pink);
+  text-decoration: none;
+}
+
+#link-redirect:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+}
+
+#break-section {
+  display: flex;
+  justify-content: center;
+}
+
+#register-content {
+  display: flex;
+  flex-direction: column;
+}

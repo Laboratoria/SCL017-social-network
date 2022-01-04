@@ -1,0 +1,16 @@
+@import "./colors-fonts.css";
+@import "./chevron-span.css";
+
+/* Paginas */
+@import "./landing-page.css";
+@import "./register-login.css";
+@import "./profile-styles.css";
+@import "./modalPost-styles.css";
+@import "./feed-styles.css";
+@import "./post-text.css";
+
+/* Media queries */
+@import "./feed-media-queries.css";
+@import "./landing-media-queries.css";
+@import "./register-login-media-queries.css";
+
